@@ -1,0 +1,59 @@
+############################################################
+# 🐍 Curso Python Avanzado – Requisitos de entorno
+# Compatible con Codespaces, VS Code + Jupyter o local
+############################################################
+
+# --- Núcleo del entorno Jupyter ---
+jupyterlab
+notebook
+ipykernel
+nbformat
+nbconvert
+
+# --- Utilidades básicas ---
+python-dotenv
+requests
+
+# --- Módulo 1: Expresiones Regulares ---
+# (Usa solo librerías estándar: re)
+
+# --- Módulo 2: Colecciones ---
+# (Usa solo librerías estándar: collections, itertools)
+
+# --- Módulo 3: Funciones y Decoradores ---
+# (Sin librerías adicionales)
+
+# --- Módulo 4: Programación Orientada a Objetos ---
+# (Sin librerías externas)
+
+# --- Módulo 5: Programación Funcional ---
+# (Usa functools, itertools – parte estándar)
+
+# --- Módulo 6: Entrada / Salida y Serialización ---
+# (Usa json, pickle, os, pathlib, xml.etree – todas estándar)
+
+# --- Módulo 7: NumPy y Pandas ---
+numpy>=1.26.0
+pandas>=2.2.0
+openpyxl         # soporte para Excel
+xlrd             # lectura de .xls antiguos
+
+# --- Módulo 8: Visualización ---
+matplotlib>=3.9.0
+seaborn>=0.13.0
+plotly>=5.20.0
+
+# --- Módulo 9: Bases de Datos ---
+sqlalchemy>=2.0.0  # conexión SQLite y otras BBDD
+sqlite-utils       # utilidades CLI opcionales
+
+# --- Módulo 10: Machine Learning y NLP ---
+scikit-learn>=1.5.0
+nltk>=3.9
+joblib
+threadpoolctl
+
+# --- Laboratorios y demos ---
+tqdm               # barras de progreso
+faker              # generación de datos falsos
+tabulate           # formato tabular opcional
